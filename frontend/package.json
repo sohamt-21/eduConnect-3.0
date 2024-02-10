@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@clerk/clerk-react": "^4.30.5",
     "@splinetool/react-spline": "^2.2.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +12,7 @@
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.7",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
     "react-type-animation": "^3.2.0",
     "react-vertical-timeline-component": "^3.6.0",
