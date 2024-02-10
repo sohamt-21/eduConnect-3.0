@@ -1,0 +1,30 @@
+@-webkit-keyframes NiceBro {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes NiceBro {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes NiceBro {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes NiceBro {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+.gradientDiv{
+    background: linear-gradient(108deg, #090909, #e3e3e3);
+    background-size: 400% 400%;
+
+    -webkit-animation: NiceBro 22s ease infinite;
+    -moz-animation: NiceBro 22s ease infinite;
+    -o-animation: NiceBro 22s ease infinite;
+    animation: NiceBro 22s ease infinite;
+}

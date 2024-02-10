@@ -1,0 +1,140 @@
+.admin-back-div {
+    position: absolute;
+    height: 100vh;
+}
+
+.admin-front-div {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.adminpanelcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.APleftbox {
+    height: 500px;
+    border-radius: 25px;
+    width: 65%;
+    box-shadow: rgba(223, 223, 223, 0.35) 0px 10px 20px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.APrightbox {
+    width: 30%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+}
+
+#APleftboxh1 {}
+
+.content-right-box {
+    margin: auto;
+    width: fit-content;
+}
+
+.APrightboxtop {
+    border: 3px solid aqua;
+    height: 35%;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: rgba(223, 223, 223, 0.35) 0px 1px 15px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.APrightboxbottom {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0);
+    box-shadow: rgba(223, 223, 223, 0.35) 1px 1px 15px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#APrightboxbottombtn {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 0.5em;
+    border: 1px solid #e8e8e8;
+    width: 50%;
+    background: transparent;
+}
+
+#APrightboxbottombtn:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+#APrightboxbottombtn:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+#APrightboxbottombtn:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #5c5c5c;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+#APrightboxbottombtn:hover {
+    color: #ffffff;
+    border: 1px solid #5c5c5c;
+}
+
+#APrightboxbottombtn:hover:before {
+    top: -35%;
+    background-color: #5c5c5c;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+#APrightboxbottombtn:hover:after {
+    top: -45%;
+    background-color: #5c5c5c;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}

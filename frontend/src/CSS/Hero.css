@@ -1,0 +1,14 @@
+.herocontainer{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+
+.herofront{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
+    color: rgb(237, 222, 194);
+    width: fit-content;
+}

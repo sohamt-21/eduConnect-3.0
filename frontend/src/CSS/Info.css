@@ -1,0 +1,106 @@
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.infoContainer {
+    
+    color: whitesmoke;
+	position: relative;
+	z-index: 0;
+	width: 80%;
+	height: 500px;
+    padding: 38px;
+    margin: auto;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 2rem;
+	
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 100%;
+		background-color: #1a232a;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-image: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
+		animation: rotate 4s linear infinite;
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		border-radius: 5px;
+        background: radial-gradient(circle at 50% 50%, rgba(82, 83, 83, 1) -30%, rgba(16, 16, 16, 1) 23%);
+	}
+}
+
+.infotop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infotopleft {
+    border: 2p solid red;
+}
+
+#infotophr {
+    height: 4px;
+    border: none;
+    margin-bottom: -10px;
+    background: hsla(16, 100%, 76%, 1);
+
+    background: linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+}
+
+#infotextid {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.infotopright {
+    align-self: center;
+    max-width: 60%;
+}
+
+.infomid {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+}
+
+#infomidh2 {
+    max-width: 70%;
+    color: #598dba;
+    background-image: -webkit-linear-gradient(0deg, #598dba 18%, #aaa2bb 36%, #bd7c66 93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#infomidp {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.infobottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
