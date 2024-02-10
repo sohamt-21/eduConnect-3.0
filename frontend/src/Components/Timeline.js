@@ -1,7 +1,6 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import temp from '../Assests/Instagram.png'
 import N1 from '../Assests/Assets Components/N1';
 import N2 from '../Assests/Assets Components/N2';
 import N3 from '../Assests/Assets Components/N3';

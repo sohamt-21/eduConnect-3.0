@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS/NavBar.css'
 import Logo from '../Assests/logoo.png'
+import { SignInButton } from '@clerk/clerk-react';
 
 const NavBar = () => {
     return (
@@ -19,8 +20,7 @@ const NavBar = () => {
             </div>
 
             <div className="navbarright">
-                <button id='navbarbutton'>Sign In</button>
-                <button id='navbarbutton'>Sign Up</button>
+                <SignInButton id='navbarbutton' />
             </div>
         </div>
     )
