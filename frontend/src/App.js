@@ -9,7 +9,7 @@ import Orgprofile from './Pages/Orgprofile';
 
 function App() {
   return (
-    <div className="App">
+    <div className="
       <Routes>
         <Route path='/' Component={MainRender} />
         <Route path='/admin' Component={AdminPanel} />
@@ -17,6 +17,9 @@ function App() {
         <Route path='/manage' Component={ManageOrg} />
         <Route path="/organization/org_2c9B6noA6mdZHjxfwvUMTV3L4MR" Component={Orgprofile} />
       </Routes>
+      <LandingPage />
+      {/* <AdminPanel/>  */}
+      {/* <AdminForm/> */}
     </div>
   );
 }

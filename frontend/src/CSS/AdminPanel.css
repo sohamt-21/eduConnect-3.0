@@ -18,6 +18,7 @@
 }
 
 .APleftbox {
+    text-align: center;
     height: 500px;
     border-radius: 25px;
     width: 65%;
@@ -38,11 +39,17 @@
     background: transparent;
 }
 
-#APleftboxh1 {}
+#APleftboxh1 {
+    margin: auto;
+    margin-top: 5px;
+    height: 45px;
+    border-bottom: 0.5px solid rgb(171, 171, 171);
+    width: 80%;
+}
 
 .content-right-box {
-    margin: auto;
-    width: fit-content;
+    /* margin: auto; */
+    align-items: center;
 }
 
 .APrightboxtop {
@@ -138,4 +145,20 @@
     top: -45%;
     background-color: #5c5c5c;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.groupinfoline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
 }

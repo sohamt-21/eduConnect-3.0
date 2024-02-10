@@ -7,8 +7,8 @@ app.use(express.json());
 const cors=require('cors');
 app.use(cors());
 
-require('./db/connection');
-const Users=require('./Models/User')
+require('./connection');
+const Users=require('./user')
 app.post("/",async(req,resp)=>{
     let user=new Users(req.body);
     let result=await user.save();
