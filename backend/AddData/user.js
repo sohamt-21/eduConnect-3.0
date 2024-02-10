@@ -7,7 +7,6 @@ const usersSchema=new mongoose.Schema({
     address:String,
     linkdin:String,
     Resume:String,
-    
 });
 
 module.exports=mongoose.model("adminforms",usersSchema);

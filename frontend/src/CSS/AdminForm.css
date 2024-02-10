@@ -1,42 +1,71 @@
-#form_container {
-    margin-top: 5rem;
-    padding: 2.5rem 3.5rem;
-    border: 0.16rem solid #bebeeb;
-    border-radius: 0.5rem;
-    height:60vh;
-    width: 60%;
+.adminFormcontainer {
+    width: 100%;
+    height: 100vh;
+    color: #f9f9f9;
 }
 
-#form_admin {
-    text-align: left;
+.adminfrontForm{
+    position: absolute;
 }
 
-#form_label {
-    font-size: 18px;
-    font-weight: 600;
+.adminbackform{
+    position: absolute;
 }
 
-#form_h1 {
-    font-weight: 800;
-}
-
-.adminformdivs{
-    margin-bottom: 30px;
+.admin_grp_form {
     display: flex;
-    flex-direction: row;
+    width: 400px;
+    margin: auto;
+    align-self: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
-#forminputlabel{
-    width: 200px;
+
+#admin_grp_form_sub {
+    display: flex;
+    flex-direction: column;
 }
 
-#form_button {
-    /* align-self: center; */
+#admin_grp_form_h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.admin_grp_form-label {
+    font-weight: bold;
+}
+
+.admin_grp_form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.admin_grp_form_btn {
     width: 6.5em;
-    height: 2.3em;
-    margin: 0.5em;
-    background: black;
-    color: white;
+    height: 3em;
+    margin: auto;
+    background: white;
+    color: black;
     border: none;
     border-radius: 0.625em;
     font-size: 20px;
@@ -47,13 +76,13 @@
     overflow: hidden;
 }
 
-#form_button:hover {
-    color: black;
+.admin_grp_form_btn:hover {
+    color: white;
 }
 
-#form_button:after {
+.admin_grp_form_btn:after {
     content: "";
-    background: white;
+    background: black;
     position: absolute;
     z-index: -1;
     left: -20%;
@@ -64,7 +93,7 @@
     transition: all 0.5s;
 }
 
-#form_button:hover:after {
+.admin_grp_form_btn:hover:after {
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;

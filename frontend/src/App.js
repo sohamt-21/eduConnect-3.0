@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      {/* <AdminPanel/> */}
+      {/* <AdminPanel/>  */}
       {/* <AdminForm/> */}
     </div>
   );
