@@ -12,6 +12,8 @@ const AfterSign = () => {
 
     const [Admin, setAdmin] = useState(false)
 
+    const [VITUser, setVITUser] = useState(false);
+
 
     const detectAdmin = () => {
         const EmailAddress = user.primaryEmailAddress;
@@ -25,12 +27,27 @@ const AfterSign = () => {
         }
     }
 
+    const detectVITPerson=()=>{
+
+        const EmailAddress = user.primaryEmailAddress;
+
+        const stringedEmailAddress = EmailAddress.toString();
+
+        var regex = /@vit\.edu$/;
+
+        if (regex.test(stringedEmailAddress)) {
+             setVITUser(true);
+        } else {
+            setVITUser(false);
+        }
+    
+
+    }
 
     useEffect(() => {
         detectAdmin()
+        detectVITPerson()
     })
-
-
 
     return (
         <div className='navbarContainer'>
@@ -54,6 +71,8 @@ const AfterSign = () => {
                     <br />
                     <Link to={"/manage"}>Join Organization</Link>
                 </>}
+                <br />
+                {VITUser ? <Link to={"/studsign"}>Join Communities</Link> :<></>}
                 <SignOutButton id='navbarbutton' />
             </div>
         </div>

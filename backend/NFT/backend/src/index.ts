@@ -3,11 +3,13 @@ import pinataSDK from "@pinata/sdk";
 import fs from "fs";
 const cors = require("cors");
 const multer = require("multer");
-
+const childprocesses=require('child_process');
+const path=require('path');
+const { spawn } = require("child_process");
 
 const app = express();
 const upload = multer({ dest: "uploads/" });
-const port = process.env.NODE_ENV === "production" ? process.env.PORT : 8080; // default port to listen
+const port = process.env.NODE_ENV === "production" ? process.env.PORT : 8080; 
 let pinata: any;
 if (process.env.NODE_ENV === "production") {
   pinata = new pinataSDK(
@@ -21,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
 
 const corsOptions = {
   origin: ["http://localhost:5173", "https://my-cool-nft-app.com"],
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  optionsSuccessStatus: 200 
 };
 app.use(cors(corsOptions));
 app.use(express.json({ limit: "50mb" }));
@@ -84,8 +86,6 @@ app.post("/mint", upload.single("image"), async (req, res) => {
       }
 
       const stringmetadata=JSON.stringify(FormatJson);
-
-
 
       const pinnedMetadata = await pinata.pinJSONToIPFS(metadata, {
         pinataMetadata: {
