@@ -25,7 +25,7 @@
 ## About The Project : 
 
 ## Edu Connect 3.O : Evolving Education Connecting Minds
-- This is PeertoPeer real time meet platform just like Googlemeet . This is made using realtime service called ZEGOCLOUD . I have written my own code for meet but Some bugs are to be fixed in that repo .
+- "EDU CONNECT 3.0" is a social media platform for college students and faculties can connect with each other, starting with account generation requests on the platform, where faculty and students submit their details for verification by the admin, who then approves the accounts and mints NFTs for each approved user. Users are added to departmental groups, so that they can communication each other and post announcements and official messages and also there are communities where they can post text, images, and videos upon logging in. Online meeting option enables faculty to conduct virtual classes seamlessly. Advanced moderation tools are implemented to detect and filter offensive content, with users having the ability to report false content, enabling the admin to take necessary actions, including user bans, if violations occur, thus ensuring a secure and conducive environment for academic engagement and collaboration.
 
 ## Key Features :
 
@@ -98,6 +98,9 @@
 # Video of Landing page : 
 - Youtube: https://youtu.be/7QLJT5OzKZM?si=9_7c4Ir1xCWqbbqs
 
+# Demo Video of TEZOS NFT Minting : 
+- Youtube: https://youtu.be/vg_eL8cwjPI?si=KV39X9V3E_FiDg_5
+  
 # Prerequisites : 
 
 * npm
