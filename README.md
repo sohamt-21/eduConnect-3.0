@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="https://github.com/Adidem23/RefMeet/assets/124609794/2b1756ed-de36-4cc1-a261-dee60dfb970a" height="150px" width="150px" />
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/a58d1461-6b07-4ba3-9d23-b07dbb120c18" height="100px" width="100px" />
   <h3 align="center"> Edu Connect 3.O : College Social Media Website</h3>
 </div>
 <details>
@@ -42,7 +42,10 @@
 - Admin can create communities within organization and users can join this communities . All official announcements can made on this communities .
 
 # Content Moderation : 
-- we have used api which can detect violence , nudity and adult content , offensive hate signs related content and wont allow users to post on communities  
+- we have used api which can detect violence , nudity and adult content , offensive hate signs related content and wont allow users to post on communities
+
+# Online Meet Section :
+- Faculties can send a link for online classes and we have created online meet platform for it 
 
 
 # Built With : 
@@ -56,24 +59,44 @@
 
 # Organization Level Authorization : 
 
-<img src=""  /> 
-Clerk Js 
+<div style="display:flex; flex-direction:row;">
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/670adde8-7c98-42e0-a5b6-7c6ff44a9fb2" height="150px" width="150px"  /> 
+<p>ClerkJs</p>
+</div>
+
 
 # Social Media Builder : 
 
-<img src=""  /> 
-Amity SDK And UIKIT
+<div style="display:flex; flex-direction:row;">
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/acf3369b-924c-44c0-9612-dbfd75597b76" height="150px" width="200px"  /> 
+<p>Amity SDK</p>
+</div>
+
 
 # NFT Minter : 
 
-<img src=""  /> Tezos 
+<div style="display:flex; flex-direction:row;">
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/219b069a-1fc4-4908-8039-979e9e15a742" height="150px" width="150px"  /> 
+<p>Tezos Blockchain</p>
+</div>
 
-<img src="" />  SvelteKit 
+<br />
 
-<img src="" />  Taquito API 
+<div style="display:flex; flex-direction:row;">
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/e834b5ec-ca75-4d32-a450-026adefb29bd" height="150px" width="150px"  /> 
+<p>Taquito</p>
+</div>
 
-<img src="" />  Umami Wallet 
+<br />
 
+<div style="display:flex; flex-direction:row;">
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/57eeb69b-769f-4016-a71c-04af5f679555" height="150px" width="150px"  /> 
+<p>Umami Wallet</p>
+</div>
+
+
+# Video of Landing page : 
+- Youtube: https://youtu.be/7QLJT5OzKZM?si=9_7c4Ir1xCWqbbqs
 
 # Prerequisites : 
 
@@ -86,48 +109,94 @@ Amity SDK And UIKIT
   ```sh
   Download Nodejs Version ^ 18.0.0 LTS 
   ```
+- You Require to Download Umami Wallet and you must have tezosghostnet test funds
 
 # Installation : 
 
 Follow The Installation manual and install dependencies 
 
-1. Run Command 
+1. Go to frontend folder and run command 
  ```sh
    npm install --force
  ```
 
-2. Run Following Command in terminal
-```sh
-npm run start
-```
+2. Frontend is Running on localhost:3000
+   
+3. Go to Backend Folder
 
-3. App is Running on localhost:3000 😎
+4. Go to NFT Section
+
+5. Go to frontend folder and run  
+```sh
+npm install 
+```
+6. run npm run dev and Now Your NFT app is running on localhost:5173
+
+7. Go to Backend in NFt Folder and run npm install 
+
+8. After this run npm run dev in backend
+
+9. You are ready to Go !!
+   
 
 # Deployments :
-
-- Deployed Site : https://refmemeet.vercel.app/
-- Associated Project : https://devfolio.co/projects/referhub-46fa
+- NFT Platform : https://tezosnft.vercel.app/
+- Meet Platform : https://refmemeet.vercel.app/
 
 # Screenshots :
 
 # Frontend :
 
 <br />
-<img width="960"  src="https://github.com/Adidem23/RefMeet/assets/124609794/da15341e-32a0-43e6-9df8-b90f8d82baad" alt="Screenshot 2024-01-02 222928" >
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/2d1435cd-0a4e-4ee6-9747-553742400df2" alt="Screenshot 2024-01-02 222928" >
 <br />
 <br />
 <br />
 
-# CreateMeet :
+# Admin NFT Portal :
 
 <br />
-<img width="960"  src="https://github.com/Adidem23/RefMeet/assets/124609794/916ce99b-2efc-4ac8-b442-ed73ef364219" alt="Screenshot 2024-01-02 222928" >
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/d226ed92-19c9-4c54-8886-41128fbd4613" alt="Screenshot 2024-01-02 222928" >
 <br />
 <br />
 <br />
 
+# NFT Minter Dapp : 
+
 <br />
-<img width="960"  src="https://github.com/Adidem23/RefMeet/assets/124609794/943783fd-5090-4a4b-abb0-3ec20a3c0c5a" alt="Screenshot 2024-01-02 222928" >
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/a257b391-f841-4d3c-9814-addbbbb350bc" alt="Screenshot 2024-01-02 222928" >
+<br />
+<br />
+<br />
+
+# Umami Wallet NFTs : 
+
+<br />
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/5bbefcc1-2429-4cb8-b85c-dead81202393" alt="Screenshot 2024-01-02 222928" >
+<br />
+<br />
+<br />
+
+# Metadata Uploaded On IPFs : 
+
+<br />
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/b6a9b9bb-0eb3-4f3e-93a2-62a3ac5c9e25" alt="Screenshot 2024-01-02 222928" >
+<br />
+<br />
+<br />
+
+# Admin Communities : 
+
+<br />
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/21e10e5f-3cad-4fc0-adf4-e2c78703430e" alt="Screenshot 2024-01-02 222928" >
+<br />
+<br />
+<br />
+
+# Post Section : 
+
+<br />
+<img width="960"  src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/32877bbc-e97c-4441-bedd-b7ca2d54a565" alt="Screenshot 2024-01-02 222928" >
 <br />
 <br />
 <br />
