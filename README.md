@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/a58d1461-6b07-4ba3-9d23-b07dbb120c18" height="100px" width="100px" />
+ <img src="https://github.com/Adidem23/eduConnect-3.0/assets/124609794/a58d1461-6b07-4ba3-9d23-b07dbb120c18" height="100px" width="180px" />
   <h3 align="center"> Edu Connect 3.O : College Social Media Website</h3>
 </div>
 <details>
